@@ -7,4 +7,9 @@ eureka:
   instance:
     hostname: localhost
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
