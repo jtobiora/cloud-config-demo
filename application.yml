@@ -41,6 +41,17 @@ resilience4j:
         maxRetryAttempts: 5
         waitDuration: 10s
 
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411
+  
+  tracing:
+    sampling:
+      probability: 1.0
+
+      
 author:
   name: Ugogbuzue Okwubanego
 
