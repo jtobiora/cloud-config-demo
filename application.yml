@@ -19,4 +19,4 @@ microservice:
         uri: http://ORDER-SERVICE/order/bookOrder 
 
 
-sender: Obiora
+receiver: Obiora
