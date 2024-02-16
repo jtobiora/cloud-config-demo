@@ -14,5 +14,6 @@ management:
         include: "*"
 
 
-author: Obiora Okwubanego
+author:
+  name: Obiora Okwubanego
 
